@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+html,body,ul,li,a{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/*header default*/
+
+.headerPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(rgb(247, 247, 247), rgb(247, 247, 247), rgb(255, 255, 255), 0);
+}
+
+.headerPrincipal ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerPrincipal ul>li{
+    display: block;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-family: 'Mate SC', serif;
+}
+
+.headerPrincipal ul>li>a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.headerPrincipal ul>li:nth-child(n+2){
+    border-left: solid 2px black;
+    padding-left: 10px;
+}
+
+.logo img{
+    width: 75px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+/*imagem header secundario*/
+
+.HeaderSecundario{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.HeaderSecundario img{
+    position: absolute;
+    z-index: -100;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 370px;
+    object-fit: cover;
+}
+
+.FraseEfeito{
+    margin-top: 100px;
+    font: bolder 30px 'Mate SC', serif;
+    color: rgb(0, 0, 0);
+}
+
+/*navegação default*/
+
+.navegação nav{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navegação nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    font: bolder 30px 'Mate SC', serif;
+    color: rgb(0, 0, 0);
+    position: sticky;
+}
+
+.navegação nav ul li a:hover{
+    display: block;
+    background-color: rgba(235, 201, 12, 0.4);
+    padding: 0px 30px;
+    text-shadow: yellow;
+}
+
+/*descrição academia*/
+
+.textoMotivacional{
+    background-color: snow;
+}
+
+.textoMotivacional blockquote{
+    padding: 70px 150px;
+    text-align: center;
+    font: bolder 17px 'Mate SC', serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 217, 0, 0.863);
+}
+
+/*carrossel unidades*/
+
+.Carroca{
+    display: flex;
+    justify-content: center;
+}
+
+.unidades{
+    width: 100%;
+    max-height: 300px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.unidades img{
+    width: 100%;
+    object-fit: cover;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+/*footer*/
+
+.footerPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.opcoesFooter{
+    padding: 0px 20px;
+    font: bolder 17px 'Mate SC', serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 30px  ;
+    border-left: solid 5px black;
+}
+
+.footerPrincipal span img{
+    border-radius: 50px 50px 0px 50px;
+    padding: 20px;
+    height: 200px;
+}
+
+footer{
+    display: flex inline;
+    align-content: center;
+}
+
+.CR{
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+}
+
+/*pagina unidades*/
+
+.Unidades-UnidadesPage{
+    display: flex inline;
+    padding: 30px;
+    background-color: seashell;
+}
+
+.Unidades-UnidadesPage>div:nth-child(2n-1):nth-child(n+2){
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.Unidades-UnidadesPage>div{
+    display: flex;
+    align-items: center;
+    font: bolder 15px 'Mate SC', serif;
+    color: rgb(0, 0, 0);
+}
+
+.imagemUnidade img{
+    height: 200px;
+    max-width: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
